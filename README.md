@@ -15,3 +15,7 @@
 5. setup your local .env file with the database config
 4. Then run the *php artisan migrate* command
 5. *php artisan serve* will run your project on your localhost ( http://127.0.0.1:8000/ )
+
+## Test
+
+1. Contacts page: http://127.0.0.1:8000/contacts

@@ -1,0 +1,10 @@
+.editContact {
+    cursor: pointer;
+}
+
+.pagination, .pagination-list {
+    align-items: center;
+    display: flex;
+    justify-content: center !Important;
+    text-align: center;
+}

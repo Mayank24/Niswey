@@ -8,6 +8,21 @@
             {{ session()->get('success') }}
         </div>
     @endif
+    <div class='columns is-mobile is-centered'>
+        <div class='column is-5'>
+            <div class='list'>
+                <ul>
+                    @foreach($errors->all() as $error)
+                        <div class="list-item notification is-danger">
+                            <button class="delete"></button>
+                            <li>{{$error}}</li>
+                        </div>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- Button trigger modal -->
     <button type="button" class="button is-primary" id="lanuchModal">
         Add Contact
